@@ -6,7 +6,7 @@ function createButton()
      btn.onclick = function()
      {
         var num = 0
-        num++
+        num = num++
         alert(num)
      }
      document.body.appendChild(btn);    
