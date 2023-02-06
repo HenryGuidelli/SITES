@@ -5,7 +5,7 @@ function createButton()
      btn.appendChild(lbl);   
      btn.onclick = function()
      {
-
+          window.print()
      }
      document.body.appendChild(btn);    
 }
