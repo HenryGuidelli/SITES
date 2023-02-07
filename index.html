@@ -1,16 +1,18 @@
-<!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8"/>
-<link rel="stylesheet" href="style.css">
-<title>TESTE</title>
+<script type="text/javascript">
+function time()
+{
+today=new Date();
+h=today.getHours();
+m=today.getMinutes();
+s=today.getSeconds();
+document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+setTimeout('time()',500);
+}
+</script>
 </head>
-<body>
-  
-<h1>HENRY GUIDELLI</h1>
-  
-<script src="js\teste.js"></script>
-  
-
+<body onload="time()">
+<div id="txt"></div>
 </body>
 </html>
