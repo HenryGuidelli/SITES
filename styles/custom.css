@@ -8,7 +8,7 @@
   
   body {
     font-family: "Merriweather", serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
     background-color: #080b1e
   }
@@ -47,7 +47,7 @@
   p {
     font-family: "Merriweather";
     color: #c6c8cb;
-    font-size: 24px;
+    font-size: 26px;
     letter-spacing: -0.1px;
     line-height: 31px;
     margin: 0 0 30px 0;
@@ -99,6 +99,7 @@
     letter-spacing: -0.1px;
     line-height: 25px;
     margin: 0 0 10px 0;
+    text-align: justify;
   }
   
   .hero-image {
@@ -110,7 +111,7 @@
   
   .hero-links a {
     display: inline-block;
-    font-size: 22px;
+    font-size: 24px;
     margin: 0 10px;
   }
   
