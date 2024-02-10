@@ -107,6 +107,11 @@
     width: 300px;
     height: 300px;
     margin: 25px 0;
+    -webkit-transition: -webkit-transform 1.5s ease-in-out;
+  }
+
+  .hero-image:hover {
+    -webkit-transform: rotate(360deg);
   }
   
   .hero-links a {
@@ -127,11 +132,11 @@
   @media only screen and (max-width:767px) {
   
     h1 {
-      font-size: 34px;
+      font-size: 30px;
     }
   
     h2 {
-      font-size: 30px;
+      font-size: 28px;
       line-height: 1.2;
     }
   
