@@ -137,10 +137,14 @@
     }
   
     h2 {
-      font-size: 28px;
+      font-size: 26px;
       line-height: 1.2;
     }
   
+    p {
+      font-size: 22px;
+    }
+
     .divider {
       margin: 25px auto 20px auto;
     }
