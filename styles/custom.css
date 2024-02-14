@@ -108,11 +108,11 @@
     width: 300px;
     height: 300px;
     margin: 20px 0;
-    -webkit-transition: -webkit-transform 1.5s ease-in-out;
+    -webkit-transition: -webkit-transform 4s ease-in-out;
   }
 
   .hero-image:hover {
-    -webkit-transform: rotate(360deg);
+    -webkit-transform: rotate(1440deg);
   }
   
   .hero-links a {
